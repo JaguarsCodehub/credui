@@ -1,10 +1,18 @@
+@import './common/fonts/fonts.css';
+@import './common/styles/variables.css';
+@import './common/styles/commonClasses.css';
+@import './common/styles/animations.css';
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'Gilroy', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-black);
+  color: var(--white-bg);
 }
 
 code {
